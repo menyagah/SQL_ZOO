@@ -63,3 +63,12 @@ SELECT name FROM world
 SELECT name FROM world
  WHERE name LIKE '_t%'
 ORDER BY name
+
+
+-- 9.
+-- Lesotho and Moldova both have two o characters separated by two other characters.
+
+-- Find the countries that have two "o" characters separated by two others.
+
+SELECT name FROM world
+ WHERE name LIKE '%_o__o%'
